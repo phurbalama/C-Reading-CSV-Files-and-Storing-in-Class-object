@@ -24,8 +24,22 @@ Student::Student(string a, string b, string c, string d, string e, string f, str
 	this->Exam3 = l;
 
 }
+//construtor 
 Student::Student()
 {
+	this->Fname = " ";
+	this->Lname = " ";
+	this->ID = " ";
+	this->Email = " ";
+	this->Street = " ";
+	this->City = " ";
+	this->State = " ";
+	this->Zip = " ";
+	this->Telephone = " ";
+	this->Exam1 = " ";
+	this->Exam2 = " ";
+	this->Exam3 = " ";
+	
 
 }
 
