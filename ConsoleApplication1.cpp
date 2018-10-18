@@ -42,6 +42,11 @@ int main()
 		{
 			return 0;
 		}
+		else if( a==3)
+		{
+			//still yet to figure out
+		}
+		
 		cout << "Would you like to continue?\n";
 		cin >> con;
 	} while (con == 'y' || con == 'Y');
