@@ -42,6 +42,31 @@ Student::Student()
 	
 
 }
+void Student::input_user()
+{
+	cout << "Enter your First Name" << endl;
+	cin >> Fname;
+	cout << "Enter your Last Name " << endl;
+	cin >> Lname;
+	cout << "Enter you ID" << endl;
+	cin >> ID;
+	cout << "Enter your Email" << endl;
+	cin >> Email;
+	cout << "Enter your Street" << endl;
+	cin >> Street;
+	cout << "Enter your City" << endl;
+	cin >> City;
+	cout << "Enter your Zip " << endl;
+	cin >> Zip;
+	cout << "Enter your Telephone " << endl;
+	cin >> Telephone;
+	cout << "Enter your Exam 1 " << endl;
+	cin >> Exam1;
+	cout << "Enter your Exam 2" << endl;
+	cin >> Exam2;
+	cout << "Enter your Exam 3" << endl;
+	cin >> Exam3;
+}
 
 void Student::output() 
 //output function which will align all the string variable to the left and the width 
