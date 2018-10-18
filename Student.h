@@ -25,6 +25,7 @@ public:
 	Student(string, string, string, string, string, string, string, string, string, string, string, string); //contstructor
 	void output();
 	void output1();
+	void input_user(); //allow user to input values
 };
 void output(Student record[], int& num);
 int readfile(string& filename);
