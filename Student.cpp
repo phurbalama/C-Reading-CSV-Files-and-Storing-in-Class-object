@@ -4,7 +4,8 @@
 #include <string>
 #include <fstream>
 #include <sstream>
-#include <iomanip>
+#include <iomanip> //iomanip is a library that is used to manipulate the output of C++ program
+
 
 using namespace std;
 //constructor for the Student class which will store all the private variable.
