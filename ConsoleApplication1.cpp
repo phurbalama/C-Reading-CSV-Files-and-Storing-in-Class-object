@@ -17,7 +17,7 @@ int main()
 	string filename = "C:\\Users\\class.CST\\Downloads\\inputData.csv";
 	int size = readfile(filename); //readfile function reads the file and returns size of the file
 	
-	Student record[50]; // creating pointer array for Payroll class;
+	Student record[50]; // creating pointer array for student class;
 	//record = new Student[size];//creating dynamic array
 
 	int recCount = 1;
